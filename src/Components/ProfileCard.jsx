@@ -1,8 +1,8 @@
-function ProfileCard(){
+function ProfileCard(props){
     return(
         <div>
-            <h2>Jonathan</h2>
-            <p>FullStack Software Developper</p>
+            <h2>{props.name}</h2>
+            <p>{props.role}</p>
         </div>
     );
 }
